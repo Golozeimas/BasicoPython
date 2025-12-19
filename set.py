@@ -21,7 +21,7 @@ num3 = int(input())
 num4 = int(input())
 num5 = int(input())
 
-numeros_sem_repeticao = {num1, num2, num3, num4 num5}
+numeros_sem_repeticao = {num1, num2, num3, num4, num5}
 
 print(numeros_sem_repeticao)
 
