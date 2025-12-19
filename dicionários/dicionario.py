@@ -26,5 +26,13 @@ for chave,valor in pessoa.items():
 print(pessoa.items()) # retorna chave + valor
 print(pessoa.keys()) # retorna as chaves
 print(pessoa.values()) # retorna os valores
-print(pessoa.get("cpf","não encontrado, tente novamente")) # serve para encontrar chaves nos dicionários, 
+print(pessoa.get("cpf","não encontrado, tente novamente")) # serve para encontrar chaves nos dicionário e retorna seus elementos, 
                                                            # se não encontrado assume o segundo valor, geralmente aviso de erro
+
+# 5 - dar update no elemento
+pessoa.update({"profissao":"engenheiro de software"})
+print(pessoa)
+
+# 6 - apagar uma chave
+pessoa.pop("idade")
+print(pessoa)

@@ -15,4 +15,3 @@ print(films_list[:3])
 
 # 4 - Buscar filmes em uma posição em diante
 print(films_list[1:3])
-
