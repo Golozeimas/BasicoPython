@@ -73,6 +73,6 @@ while True:
         break
     procurar_filme = [movie for movie in film_list if seacher.lower() == movie.lower()]
     if procurar_filme != []:
-        print(f"Encontramos o filme, começaremos a reprodução de {procurar_filme} em alguns segundos")
+        print(f"Encontramos o filme, começaremos a reprodução de {seacher.capitalize()} em alguns segundos")
     else:
         print("Nenhum filme com esse nome foi encontrado, tente novamente!")
