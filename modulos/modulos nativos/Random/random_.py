@@ -48,3 +48,8 @@ while not done:
         print("Saindo...")
         time.sleep(3)
         done = True
+
+# 6 - embaralha os elementos da própria lista
+print("Embaralha os elemento da lista de números:\n")
+random.shuffle(lista_de_numeros) # não podemos printar diretamente só depois acredito por se tratar de um algoritmo de percorrimento mais complexo
+print(lista_de_numeros)
