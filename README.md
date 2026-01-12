@@ -1,69 +1,121 @@
-Este documento serve como guia de navegação para os arquivos e diretórios presentes neste projeto de estudo da linguagem Python. O conteúdo está organizado de forma a separar scripts de conceitos básicos, funções específicas e módulos avançados.
+# Guia de Navegação do Projeto Python
 
-Estrutura de Pastas e Arquivos
-Abaixo encontra se o detalhamento do conteúdo de cada diretório principal.
+Este documento serve como guia de navegação para os arquivos e diretórios presentes neste projeto de estudo da linguagem **Python**. O conteúdo está organizado de forma a separar scripts de conceitos básicos, funções específicas e módulos mais avançados.
 
-1. Diretório Raiz (Conceitos Fundamentais)
-Nesta pasta encontram se os scripts introdutórios que não dependem de outros ficheiros para execução. Eles cobrem a sintaxe essencial da linguagem.
+---
 
-hello_world.py: Script inicial para teste de ambiente.
+## Estrutura de Pastas e Arquivos
 
-tipos_de_dados.py: Exemplos de declaração de variáveis e tipagem dinâmica.
+Abaixo encontra-se o detalhamento do conteúdo de cada diretório principal.
 
-input.py e concatena.py: Interação básica com o utilizador e formatação de saídas.
+---
 
-operadores.py: Demonstração de operações matemáticas fundamentais.
+## 1. Diretório Raiz (Conceitos Fundamentais)
 
-condicoes.py e condicoes_pt2.py: Lógica de decisão (if/else) e operações condicionais.
+Nesta pasta encontram-se os scripts introdutórios que não dependem de outros ficheiros para execução. Eles cobrem a sintaxe essencial da linguagem.
 
-Loops (for.py, while.py, range.py): Estruturas de repetição para iteração de dados.
+* **hello_world.py**
+  Script inicial para teste de ambiente.
 
-Funções (funcao.py, lambda.py, recursiva.py): Definição de métodos, funções anónimas e recursividade.
+* **tipos_de_dados.py**
+  Exemplos de declaração de variáveis e tipagem dinâmica.
 
-2. Pasta: dicionários
-Focada na estrutura de dados de chave valor (dict).
+* **input.py** e **concatena.py**
+  Interação básica com o utilizador e formatação de saídas.
 
-dicionario.py: Introdução à sintaxe, métodos .get(), .keys() e .values().
+* **operadores.py**
+  Demonstração de operações matemáticas fundamentais.
 
-dicionario_embelezado.py: Uso da biblioteca pprint para visualização organizada de dados complexos.
+* **condicoes.py** e **condicoes_pt2.py**
+  Lógica de decisão (`if / else`) e operações condicionais.
 
-exercicio.py: Aplicação prática de dicionários para cadastro de produtos e preços.
+* **Loops** (`for.py`, `while.py`, `range.py`)
+  Estruturas de repetição para iteração de dados.
 
-3. Pasta: funções da lista
+* **Funções** (`funcao.py`, `lambda.py`, `recursiva.py`)
+  Definição de métodos, funções anónimas e recursividade.
+
+---
+
+## 2. Pasta: `dicionarios`
+
+Focada na estrutura de dados de chave-valor (`dict`).
+
+* **dicionario.py**
+  Introdução à sintaxe e aos métodos `.get()`, `.keys()` e `.values()`.
+
+* **dicionario_embelezado.py**
+  Uso da biblioteca `pprint` para visualização organizada de dados complexos.
+
+* **exercicio.py**
+  Aplicação prática de dicionários para cadastro de produtos e preços.
+
+---
+
+## 3. Pasta: `funcoes_da_lista`
+
 Scripts dedicados à manipulação de listas (arrays).
 
-lista.py: Criação e acesso a índices.
+* **lista.py**
+  Criação de listas e acesso a índices.
 
-metodos_listas.py: Métodos nativos como .append(), .sort(), .remove() e .clear().
+* **metodos_listas.py**
+  Métodos nativos como `.append()`, `.sort()`, `.remove()` e `.clear()`.
 
-4. Pasta: funções de string
+---
+
+## 4. Pasta: `funcoes_de_string`
+
 Manipulação e tratamento de textos.
 
-strings.py: Métodos de formatação como .upper(), .lower() e .replace().
+* **strings.py**
+  Métodos de formatação como `.upper()`, `.lower()` e `.replace()`.
 
-slice.py: Técnicas de fatiamento de strings e arrays.
+* **slice.py**
+  Técnicas de fatiamento de strings e arrays.
 
-5. Pasta: modulos
+---
+
+## 5. Pasta: `modulos`
+
 Exemplos de como criar, importar e organizar código em múltiplos arquivos, simulando a arquitetura de projetos maiores.
 
-Arquivos de Módulo: math_operations.py (cálculos) e string_utils.py (texto) contêm funções reutilizáveis.
+* **Arquivos de módulo**
 
-main.py: Script principal que importa e executa as funções definidas nos módulos acima.
+  * `math_operations.py`: funções de cálculos matemáticos.
+  * `string_utils.py`: funções utilitárias para manipulação de texto.
 
-Subpasta: modulos nativos
-Exploração das bibliotecas padrão ("Built in") do Python.
+* **main.py**
+  Script principal que importa e executa as funções definidas nos módulos acima.
 
-Collections: Uso de Counter, namedtuple e deque.
+### Subpasta: `modulos_nativos`
 
-Hashlib: Exemplos de criptografia e hashing (SHA256, MD5).
+Exploração das bibliotecas padrão (*Built-in*) do Python.
 
-Math e Statistic: Operações matemáticas avançadas e estatísticas descritivas.
+* **Collections**
+  Uso de `Counter`, `namedtuple` e `deque`.
 
-OS: Comandos de sistema operacional como listar diretórios e limpar o terminal.
+* **Hashlib**
+  Exemplos de criptografia e hashing (`SHA256`, `MD5`).
 
-Random: Geração de números aleatórios e jogos de sorteio.
+* **Math e Statistics**
+  Operações matemáticas avançadas e estatísticas descritivas.
 
-Regex: Expressões regulares para busca de padrões em texto.
+* **OS**
+  Comandos do sistema operacional, como listar diretórios e limpar o terminal.
 
-Notas de Execução
-Alguns scripts, especialmente os que utilizam input(), requerem interação via terminal. Para executar um módulo que está dentro de uma subpasta, certifique se de que o diretório de trabalho do seu terminal está correto ou ajuste os caminhos de importação conforme necessário.
+* **Random**
+  Geração de números aleatórios e jogos de sorteio.
+
+* **Regex**
+  Expressões regulares para busca e validação de padrões em texto.
+
+---
+
+## Notas de Execução
+
+Alguns scripts, especialmente os que utilizam `input()`, requerem interação via terminal.
+
+Para executar um módulo localizado dentro de uma subpasta, certifique-se de que o diretório de trabalho do terminal está correto ou ajuste os caminhos de importação conforme necessário.
+
+Este projeto tem como objetivo servir como material de apoio progressivo para o aprendizado da linguagem Python, desde os conceitos básicos até a organização modular de aplicações.
